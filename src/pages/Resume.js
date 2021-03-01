@@ -21,7 +21,7 @@ function Resume(props) {
             <Title>Work Experience</Title>
             <SubTitle>
               <JobLink
-                href="www.dextel.net/"
+                href="http://dextel.net"
                 target="_blank"
                 rel="noopener noreferrer"
               >
