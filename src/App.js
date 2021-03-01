@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Landing from "./pages/Landing.js";
 import Resume from "./pages/Resume.js";
 import Arrow from "./components/Arrow";
