@@ -85,7 +85,6 @@ const Content = styled.div`
 
   @media only screen and (max-width: 1061px) {
     grid-gap: 0%;
-
     grid-template-columns: repeat(auto-fill, minmax(47%, 47%));
   }
 
@@ -94,6 +93,7 @@ const Content = styled.div`
     grid-gap: 0;
     max-width: 80%;
     top: 16%;
+    padding-left: 0;
   }
 `;
 
