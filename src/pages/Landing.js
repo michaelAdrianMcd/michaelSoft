@@ -3,7 +3,7 @@ import Vectorwaves from "../components/Vectorwaves";
 import VectorwavesDark from "../components/VectorwavesDark";
 import styled from "styled-components";
 
-const photo = require("../components/Group1(1).png");
+const photo = require("../components/Group1.png");
 
 function Landing(props) {
   const [windowHeight, setHeight] = useState(window.innerHeight);
