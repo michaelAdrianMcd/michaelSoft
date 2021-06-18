@@ -157,6 +157,11 @@ const TextBox = styled.div`
   margin: 5%;
   position: relative;
   z-index: 1;
+
+  /* crazy mode */
+
+  /* backdrop-filter: hue-rotate(180deg) blur(20px); */
+  /* padding: 20px; */
 `;
 
 const TopRow = styled.div`

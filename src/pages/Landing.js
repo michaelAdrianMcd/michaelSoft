@@ -120,6 +120,7 @@ const H1 = styled.h1`
   cursor: default;
 
   :hover {
+    transition: none;
     text-shadow: -3px 3px 1px #73a090;
     letter-spacing: -2px;
   }
@@ -128,7 +129,6 @@ const H1 = styled.h1`
     font-size: 55px;
     line-height: 44px;
     margin: 5% auto;
-    text-shadow: -3px 3px 1px #73a090;
     letter-spacing: -2px;
   }
 `;
@@ -146,6 +146,7 @@ const P = styled.p`
 
   @media only screen and (max-width: 1061px) {
     min-width: 0;
+    text-align: justify;
   }
 `;
 
