@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Vectorwaves from "../components/Vectorwaves";
 import VectorwavesDark from "../components/VectorwavesDark";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const photo = require("../components/Group1.png");
 
@@ -53,7 +53,13 @@ function Landing(props) {
 
 export default Landing;
 
-// remember to make width adjusting function for both pages (firefox scrollbar thing)
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+`;
 
 const Container = styled.div`
   position: relative;
@@ -198,6 +204,7 @@ const Image = styled.img`
   background: rgba(102, 138, 114, 70%);
   filter: brightness(70%) sepia(100%) hue-rotate(-74deg) saturate(140%); */
   width: 432px;
+  animation: ${fadeIn} 0.5s linear;
   @media only screen and (max-width: 1061px) {
     width: 100%;
   }
