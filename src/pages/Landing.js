@@ -98,7 +98,7 @@ const Content = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(300px, 550px));
     grid-gap: 0;
     max-width: 80%;
-    top: 11%;
+    top: 40px;
     padding-left: 0;
   }
 `;
