@@ -98,7 +98,7 @@ const Content = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(300px, 550px));
     grid-gap: 0;
     max-width: 80%;
-    top: 16%;
+    top: 11%;
     padding-left: 0;
   }
 `;
@@ -207,5 +207,6 @@ const Image = styled.img`
   animation: ${fadeIn} 0.5s linear;
   @media only screen and (max-width: 1061px) {
     width: 100%;
+    min-width: 230px;
   }
 `;
